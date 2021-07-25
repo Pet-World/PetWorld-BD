@@ -1,0 +1,52 @@
+@api = http://localhost:5000
+
+# obtener todas las tareas
+GET {{api}}/user/patients
+
+# creando un usuario NO MEDICO
+POST {{api}}/user/signup
+Content-Type: application/json
+
+{
+    "userID": "TueJan182000CristhianWiki",
+    "dateOfBirth": "2000-01-18T05:00:00.000+00:00",
+    "direction": "Comas",
+    "email": "user@gmail.com",
+    "hospital": "",
+    "isMedic": "false",
+    "lastUse": "2021-07-02T01:26:59.687+00:00",
+    "name":"Cristhian Wiki",
+    "password": "user98",
+    "profileImage": "",
+    "speciality": "",
+    "timeContract": ""
+}
+
+# creando un usuario MEDICO
+POST {{api}}/user/signup
+Content-Type: application/json
+
+{
+    "userID": "ThuOct211999RonaldoCampos",
+    "dateOfBirth": "1999-10-21T05:00:00.000+00:00",
+    "direction": "Comas",
+    "email": "medic@gmail.com",
+    "hospital": "Rezola",
+    "isMedic": "true",
+    "lastUse": "2021-07-02T01:27:19.952+00:00",
+    "name": "Ronaldo Campos",
+    "password": "medic98",
+    "profileImage": "",
+    "speciality": "Dermatología",
+    "timeContract": "Indefinido"
+}
+
+
+//LOGIN
+POST {{api}}/user/signin
+Content-Type: application/json
+
+{
+    "email": "medic@gmail.com",
+    "password":"medic98"
+}
