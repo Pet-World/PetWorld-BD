@@ -1,44 +1,36 @@
 @api = http://localhost:5000
 
-# obtener todas las tareas
-GET {{api}}/user/patients
 
-# creando un usuario NO MEDICO
+# creando un usuario
 POST {{api}}/user/signup
 Content-Type: application/json
 
 {
-    "userID": "TueJan182000CristhianWiki",
-    "dateOfBirth": "2000-01-18T05:00:00.000+00:00",
-    "direction": "Comas",
-    "email": "user@gmail.com",
-    "hospital": "",
-    "isMedic": "false",
-    "lastUse": "2021-07-02T01:26:59.687+00:00",
-    "name":"Cristhian Wiki",
-    "password": "user98",
-    "profileImage": "",
-    "speciality": "",
-    "timeContract": ""
+    "dni": 75148418,
+    "apellidos": "Sanchez",
+    "cantidadMascotas": 2,
+    "celular": 987654321,
+    "direccion": "Av. Tupac Amaru 123",
+    "distrito": "Rimac",
+    "email": "sanchez2@gmail.com",
+    "password": "1234567",
+    "nombres": "Cristhian"
 }
 
-# creando un usuario MEDICO
+# creando un usuario
 POST {{api}}/user/signup
 Content-Type: application/json
 
 {
-    "userID": "ThuOct211999RonaldoCampos",
-    "dateOfBirth": "1999-10-21T05:00:00.000+00:00",
-    "direction": "Comas",
-    "email": "medic@gmail.com",
-    "hospital": "Rezola",
-    "isMedic": "true",
-    "lastUse": "2021-07-02T01:27:19.952+00:00",
-    "name": "Ronaldo Campos",
-    "password": "medic98",
-    "profileImage": "",
-    "speciality": "Dermatología",
-    "timeContract": "Indefinido"
+    "dni": 7512225,
+    "apellidos": "Garcia",
+    "cantidadMascotas": 2,
+    "celular": 981234568,
+    "direccion": "Av. Las Jefas 234",
+    "distrito": "Comas",
+    "email": "jefa@gmail.com",
+    "password": "8754125545",
+    "nombres": "Julissa"
 }
 
 
@@ -47,6 +39,21 @@ POST {{api}}/user/signin
 Content-Type: application/json
 
 {
-    "email": "medic@gmail.com",
-    "password":"medic98"
+    "email": "jefa@gmail.com",
+    "password":"8754125545"
 }
+
+
+// create service
+POST {{api}}/service/createService
+Content-Type: application/json
+
+{
+    "id_servicio": 123,
+    "categoria": "estetica",
+    "especificacion": "limpieza de oidos"
+}
+
+
+// getService
+GET {{api}}/service/getService?id_servicio=123

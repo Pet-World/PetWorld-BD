@@ -6,6 +6,7 @@ require('./config/db');
 const app = require('express')();
 
 const UserRouter = require('./api/User');
+const ServiceRouter = require('./api/Service');
 /* 
 const HistoryRouter = require('./api/History');
 const StadisticRouter = require('./api/Stadistic');
@@ -19,6 +20,7 @@ app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true, parameterLimit: 50000 }));
 
 app.use('/user', UserRouter);
+app.use('/service', ServiceRouter);
 /* app.use('/history', HistoryRouter);
 app.use('/stadistic', StadisticRouter);
 app.use('/diagnosis', DiagnosisRouter); */

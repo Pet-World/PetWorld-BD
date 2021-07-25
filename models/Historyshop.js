@@ -4,11 +4,10 @@ const Schema = mongoose.Schema;
 const HistoryshopSchema = new Schema({
     id_historial: Number,
     cantidadCompra: Number,
-    distrito: String,
     fecha: Date,
-    valoracion: String,
-    Dni: String,
-    id_producto: String,
+    valoracion: Number,
+    dni: Number,
+    id_producto: Number,
 });
 
 const Historyshop = mongoose.model('Historyshop', HistoryshopSchema);

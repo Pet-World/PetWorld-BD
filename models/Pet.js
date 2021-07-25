@@ -3,14 +3,13 @@ const Schema = mongoose.Schema;
 
 const PetSchema = new Schema({
     id_mascota: Number,
-    apellidos: String,
-    cantidadMascotas: Number,
-    celular: Number,
-    direccion: String,
-    distrito: String,
-    email: String,
-    password: String,
-    nombres: String,
+    dni: Number,
+    edad: Number,
+    nombre: String,
+    pelaje: String,
+    raza: String,
+    sexo: String,
+    tamano: Number,
 });
 
 const Pet = mongoose.model('Pet', PetSchema);
