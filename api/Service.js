@@ -5,97 +5,118 @@ const router = express.Router();
 const Service = require("./../models/Service");
 
 cotizacion = {
-  estetica: {
-    "cepillado de dientes": 100,
-    "limpieza de oidos": 50,
-  },
+    medicina_preventiva: {
+        "chequeos medicos preventivos": 100,
+        "analisis de laboratorio": 80,
+        "ecografia": 100,
+        "microchips": 50,
+        "snaps de descarte de Parvovirosis": 60,
+        "snaps de descarte de distemper": 70,
+        "snaps de descarte Sida": 60,
+    },
+    medicina_interna: {
+        "placas de Rayos X": 100,
+        "traumatologia": 80,
+        "profilaxis dental": 70,
+        "citologias de masas, oidos y piel": 90,
+        "histopatologias": 80,
+        "otoscopias digitales": 60,
+        "rinoscopias digitales": 80,
+    },
+    estetica: {
+        "baño y perfumado": 100,
+        "corte de uñas": 50,
+        "limpieza de oidos": 70,
+        "cepillado de dientes": 40,
+        "limpieza de glandulas anales": 200,
+        "cepillado y desenredado de pelaje": 80,
+        "reacondicionamiento de pelaje": 150,
+    },
 };
 
-// Signup
+// Crear servicio
 router.post("/createService", (req, res) => {
-  let { id_servicio, categoria, especificacion, precio } = req.body;
-  categoria = categoria.trim();
-  especificacion = especificacion.trim();
+    let { id_servicio, categoria, especificacion, precio } = req.body;
+    categoria = categoria.trim();
+    especificacion = especificacion.trim();
 
-  if (especificacion == "" || categoria == "") {
-    res.json({
-      status: "FAILED",
-      message: "Hay campos vacíos!",
-    });
-  } else {
-    let precio = cotizacion[categoria][especificacion];
-
-    Service.find({ id_servicio })
-      .then((result) => {
-        if (result.length) {
-          // A Service already exists
-          res.json({
+    if (especificacion == "" || categoria == "") {
+        res.json({
             status: "FAILED",
-            message: "Ya existe un servicio con ese ID!",
-          });
-        } else {
-          const newService = new Service({
-            id_servicio,
-            categoria,
-            especificacion,
-            precio,
-          });
+            message: "Hay campos vacíos!",
+        });
+    } else {
+        let precio = cotizacion[categoria][especificacion];
 
-          newService
-            .save()
+        Service.find({ id_servicio })
             .then((result) => {
-              res.json({
-                status: "SUCCESS",
-                message: "Servicio creado",
-                data: result,
-              });
+                if (result.length) {
+                    // A Service already exists
+                    res.json({
+                        status: "FAILED",
+                        message: "Ya existe un servicio con ese ID!",
+                    });
+                } else {
+                    const newService = new Service({
+                        id_servicio,
+                        categoria,
+                        especificacion,
+                        precio,
+                    });
+
+                    newService
+                        .save()
+                        .then((result) => {
+                            res.json({
+                                status: "SUCCESS",
+                                message: "Servicio creado",
+                                data: result,
+                            });
+                        })
+                        .catch((err) => {
+                            res.json({
+                                status: "FAILED",
+                                message: "Ha ocurrido un error al crear servicio",
+                            });
+                        });
+                }
             })
             .catch((err) => {
-              res.json({
-                status: "FAILED",
-                message: "Ha ocurrido un error al elegir servicio",
-              });
+                console.log(err);
+                res.json({
+                    status: "FAILED",
+                    message: "Se produjo un error al verificar si había un servicio existente!",
+                });
             });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-        res.json({
-          status: "FAILED",
-          message:
-            "Se produjo un error al verificar si había un service existente.!",
-        });
-      });
-  }
+    }
 });
 
-// Signin
+// Obtener sevicio
 router.get("/getService", (req, res) => {
-  const id_servicio = req.query.id_servicio;
-  Service.find({ id_servicio })
-    .then((resultService) => {
-      if (resultService.length == 0) {
-        // A Service already exists
-        res.json({
-          status: "FAILED",
-          message: "No existe el ID del servicio!",
+    const id_servicio = req.query.id_servicio;
+    Service.find({ id_servicio })
+        .then((resultService) => {
+            if (resultService.length == 0) {
+                // A Service already exists
+                res.json({
+                    status: "FAILED",
+                    message: "No existe el ID del servicio!",
+                });
+            } else {
+                res.json({
+                    status: "SUCCESS",
+                    message: "Servicio obtenido",
+                    data: resultService,
+                });
+            }
+        })
+        .catch((err) => {
+            console.log(err);
+            res.json({
+                status: "FAILED",
+                message: "Se produjo un error al verificar si había un id de servicio existente.!",
+            });
         });
-      } else {
-        res.json({
-          status: "SUCCESS",
-          message: "Servicio obtenido",
-          data: resultService,
-        });
-      }
-    })
-    .catch((err) => {
-      console.log(err);
-      res.json({
-        status: "FAILED",
-        message:
-          "Se produjo un error al verificar si había un id de servicio existente.!",
-      });
-    });
 });
 
 module.exports = router;
