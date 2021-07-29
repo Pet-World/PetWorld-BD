@@ -9,7 +9,7 @@ const PetSchema = new Schema({
     pelaje: String,
     raza: String,
     sexo: String,
-    tamano: Number,
+    tamano: String,
 });
 
 const Pet = mongoose.model('Pet', PetSchema);

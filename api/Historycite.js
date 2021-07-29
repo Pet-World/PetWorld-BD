@@ -1,82 +1,62 @@
 const express = require("express");
 const router = express.Router();
 
-// mongodb Historyshop model
-const Historyshop = require("./../models/Historyshop");
-const Product = require("./../models/Product");
+// mongodb Historycite model
+const Historycite = require("./../models/Historycite");
+const Service = require("./../models/Service");
 
-// Crear producto
-router.post("/createHistoryshop", (req, res) => {
+// Crear Servicio
+router.post("/createHistorycite", (req, res) => {
     let {
         id_historial,
-        cantidadCompra,
-        fecha,
-        delivery,
-        direccion,
-        distrito,
-        valoracion,
         dni,
-        id_producto,
+        fecha,
+        id_servicio,
+        id_mascota,
+        valoracion,
     } = req.body;
-
-    distrito = distrito.trim();
-    direccion = direccion.trim();
 
     if (
         id_historial == "" ||
-        cantidadCompra == "" ||
         fecha == "" ||
         dni == "" ||
-        id_producto == ""
+        id_servicio == ""
     ) {
         res.json({
             status: "FAILED",
             message: "Hay campos vacíos",
         });
-    } else if (delivery && (direccion == "" || distrito == "")) {
-        res.json({
-            status: "FAILED",
-            message: "Complete la ubicación de la entrega",
-        });
-    } else if (cantidadCompra < 1) {
-        res.json({
-            status: "FAILED",
-            message: "Cantidad Incorrecta!",
-        });
     } else {
-        Product.find({ id_producto: id_producto })
+        Service.find({ id_servicio: id_servicio })
             .then((result) => {
                 if (result.length == "") {
                     res.json({
                         status: "FAILED",
-                        message: "Producto no existe!",
+                        message: "Servicio no existe!",
                     });
                 } else {
-                    const newHistoryShop = new Historyshop({
+                    const newHistorycite = new Historycite({
                         id_historial,
-                        cantidadCompra,
-                        fecha,
-                        delivery,
-                        direccion,
-                        distrito,
-                        valoracion,
                         dni,
-                        id_producto,
+                        fecha,
+                        id_servicio,
+                        id_mascota,
+                        valoracion,
                     });
 
-                    newHistoryShop
+                    newHistorycite
                         .save()
                         .then((result) => {
                             res.json({
                                 status: "SUCCESS",
-                                message: "Historial de compra creado",
+                                message: "Historial de cita creado",
                                 data: result,
                             });
                         })
                         .catch((err) => {
                             res.json({
                                 status: "FAILED",
-                                message: "Ha ocurrido un error al crear el historial de compra",
+                                message: "Ha ocurrido un error al crear el historial de cita",
                             });
                         });
                 }
@@ -85,7 +65,7 @@ router.post("/createHistoryshop", (req, res) => {
                 console.log(err);
                 res.json({
                     status: "FAILED",
-                    message: "Se produjo un error al buscar Producto con ese ID!",
+                    message: "Se produjo un error al buscar Serviceo con ese ID!",
                 });
             });
     }
@@ -94,7 +74,7 @@ router.post("/createHistoryshop", (req, res) => {
 // actualizar valoración
 router.post("/addValoration", (req, res) => {
     let { id_historial, valoracion } = req.body;
-    Historyshop.updateOne({
+    Historycite.updateOne({
             id_historial: id_historial,
             valoracion: 0
         }, { valoracion: valoracion })
@@ -112,10 +92,10 @@ router.post("/addValoration", (req, res) => {
             });
         });
 });
-// Obtener Historial de una compra
-router.get("/getHistoryshop", (req, res) => {
+// Obtener Historial de una cita
+router.get("/getHistorycite", (req, res) => {
     const id_historial = req.query.id_historial;
-    Historyshop.find({ id_historial })
+    Historycite.find({ id_historial })
         .then((resultHistory) => {
             if (resultHistory.length == 0) {
                 res.json({

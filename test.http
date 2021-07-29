@@ -57,3 +57,112 @@ Content-Type: application/json
 
 // getService
 GET {{api}}/service/getService?id_servicio=123
+
+
+//CreateProduct
+POST {{api}}/product/createProduct
+Content-Type: application/json
+
+{
+    "id_producto": 3102,
+    "nombre": "Paños Sanitarios Dogit 50 Unidades - 55,8x55,8 Cm",
+    "categoria": "Limpieza",
+    "marca": "Dogit",
+    "precio": 104,
+    "imagen": "3102.png"
+}
+
+
+// create Product
+POST {{api}}/product/createProduct
+Content-Type: application/json
+
+{
+    "id_producto": 3103,
+    "nombre": "Paños Sanitarios Dogit 30 Unidades - 55,8x55,8 Cm",
+    "categoria": "Limpieza",
+    "marca": "Dogit",
+    "precio": 84,
+    "imagen": "3103.png"
+}
+
+
+// get Product
+GET {{api}}/product/getProduct?id_producto=102
+
+
+// Create historyshop
+POST {{api}}/historyshop/createHistoryshop
+Content-Type: application/json
+
+{
+    "id_historial": 113,
+    "cantidadCompra": 1,
+    "fecha": "2019-10-21",
+    "delivery": false,
+    "direccion": "Calle 13",
+    "distrito": "",
+    "valoracion": 0,
+    "dni": 7512233,
+    "id_producto": 3102
+}
+
+// Get Historyshop
+GET {{api}}/historyshop/getHistoryshop?id_historial=112
+
+// Add Valoration
+POST {{api}}/historyshop/addValoration
+Content-Type: application/json
+
+{
+    "id_historial": 111,
+    "valoracion": 5
+}
+
+
+//Create Service
+
+POST {{api}}/historycite/createHistorycite
+Content-Type: application/json
+
+{
+    "id_historial": 2114,
+    "dni"   : 7512233,
+    "fecha" : "2019-10-21",
+    "id_servicio" : 121,
+    "id_mascota" : 678,
+    "valoracion": 0
+}
+
+
+GET {{api}}/historycite/getHistorycite?id_historial=211
+
+// Add Valoration
+POST {{api}}/historycite/addValoration
+Content-Type: application/json
+
+{
+    "id_historial": 211,
+    "valoracion": 3
+}
+
+// register pet
+POST {{api}}/pet/registerpet
+Content-Type: application/json
+
+{
+    "id_mascota": 1345,
+    "dni": 7512233,
+    "edad": 20,
+    "nombre": "cj7",
+    "pelaje": "corto",
+    "raza": "chihuahua",
+    "sexo": "macho",
+    "tamano": "pequeño"
+}
+
+
+// get pet
+GET {{api}}/pet/getPet?id_mascota=1345
+
+

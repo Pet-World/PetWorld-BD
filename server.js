@@ -7,6 +7,10 @@ const app = require('express')();
 
 const UserRouter = require('./api/User');
 const ServiceRouter = require('./api/Service');
+const ProductRouter = require('./api/Product');
+const HistoryshopRouter = require('./api/Historyshop');
+const HistoryciteRouter = require('./api/Historycite');
+const PetRouter = require('./api/Pet');
 /* 
 const HistoryRouter = require('./api/History');
 const StadisticRouter = require('./api/Stadistic');
@@ -21,6 +25,10 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true, parameterLimit: 5
 
 app.use('/user', UserRouter);
 app.use('/service', ServiceRouter);
+app.use('/product', ProductRouter);
+app.use('/historyshop', HistoryshopRouter);
+app.use('/pet', PetRouter);
+app.use('/historycite', HistoryciteRouter);
 /* app.use('/history', HistoryRouter);
 app.use('/stadistic', StadisticRouter);
 app.use('/diagnosis', DiagnosisRouter); */

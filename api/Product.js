@@ -33,7 +33,7 @@ router.post("/createProduct", (req, res) => {
                         categoria,
                         marca,
                         precio,
-                        imagen
+                        imagen,
                     });
 
                     newProduct
@@ -67,11 +67,10 @@ router.post("/createProduct", (req, res) => {
 
 // Obtener Producto
 router.get("/getProduct", (req, res) => {
-    const id_product = req.query.id_product;
-    Product.find({ id_product })
+    const id_producto = req.query.id_producto;
+    Product.find({ id_producto })
         .then((resultProduct) => {
             if (resultProduct.length == 0) {
-                // A Product already exists
                 res.json({
                     status: "FAILED",
                     message: "No existe el ID del producto!",

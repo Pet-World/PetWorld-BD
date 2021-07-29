@@ -6,10 +6,11 @@
     "id_producto": "3101",
     "nombre": "Corta Uñas Dogit Profesional",
     "categoria": "Limpieza",
-    "marca": "Dogit"
+    "marca": "Dogit",
     "precio": "70",
     "imagen": "3101.png",
 }
+
 
 {
     "id_producto": "3102",
@@ -21,19 +22,19 @@
 }
 
 {
-    "id_producto": "3103",
+    "id_producto": 3103,
     "nombre": "Paños Sanitarios Dogit 30 Unidades - 55,8x55,8 Cm",
-    "categoria": "Limpieza"
-    "marca": "Dogit"
-    "precio": "84",
+    "categoria": "Limpieza",
+    "marca": "Dogit",
+    "precio": 84,
     "imagen": "3103.png",
 }
 
 {
-    "id_producto": "3104",
+    "id_producto": 3104,
     "nombre": "Paños Sanitarios Dogit 14 Unidades - 55,8x55,8 Cm",
-    "categoria": "Limpieza"
-    "marca": "Dogit"
-    "precio": "84",
+    "categoria": "Limpieza",
+    "marca": "Dogit",
+    "precio": 84,
     "imagen": "3104.png",
 }
