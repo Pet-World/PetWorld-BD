@@ -166,3 +166,14 @@ Content-Type: application/json
 GET {{api}}/pet/getPet?id_mascota=1345
 
 
+POST {{api}}/product/createProduct
+Content-Type: application/json
+
+{
+    "id_producto": 3304,
+    "nombre": "Shampoo Repelente Natural Protección Y Cuidado - 300 Ml",
+    "categoria": "Limpieza",
+    "marca": "Maskota",
+    "precio": 23.60,
+    "imagen":"" 
+}

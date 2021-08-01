@@ -3,7 +3,9 @@ const config = require('./config/config');
 // mongodb
 require('./config/db');
 
+var cors = require('cors');
 const app = require('express')();
+app.use(cors());
 
 const UserRouter = require('./api/User');
 const ServiceRouter = require('./api/Service');
