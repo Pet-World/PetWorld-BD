@@ -35,12 +35,7 @@ Content-Type: application/json
         "marca": "Cat Chow",
         "precio": 40,
         "imagen":""
-        }      
-]
-
-
-
-
+        } , 
 {
     "id_producto": 3304,
     "nombre": "Shampoo Repelente Natural Protección Y Cuidado - 300 Ml",
@@ -48,7 +43,7 @@ Content-Type: application/json
     "marca": "Maskota",
     "precio": 23.60,
     "imagen": "" 
-}
+},
 
 {
     "id_producto": 3302,
@@ -57,7 +52,7 @@ Content-Type: application/json
     "marca": "Maskota",
     "precio": "23.60",
     "imagen":""
-}
+},
 
 {
     "id_producto": 3301,
@@ -66,7 +61,7 @@ Content-Type: application/json
     "marca": "Maskota",
     "precio": 23.60,
     "imagen":""
-}
+},
 {
     "id_producto": 3202,
     "nombre": "Dentastix Pedigree Razas Pequeñas",
@@ -74,7 +69,7 @@ Content-Type: application/json
     "marca": "Pedigree",
     "precio": 6,
     "imagen":""
-}
+},
 {
     "id_producto": 3201,
     "nombre": "Dentastix Pedigree Razas Medianas",
@@ -82,7 +77,7 @@ Content-Type: application/json
     "marca": "Pedigree",
     "precio": 8,
     "imagen":""
-}
+},
 {
     "id_producto": 3107,
     "nombre": "Mordillo Gumi Dental Con Cordon - Chico",
@@ -90,7 +85,7 @@ Content-Type: application/json
     "marca": "Dogit",
     "precio": 70,
     "imagen":"" 
-}
+},
 {
     "id_producto": 3106,
     "nombre": "Mordillo Dogit Gumi Con Seda Dental - Mediano",
@@ -98,7 +93,7 @@ Content-Type: application/json
     "marca": "Dogit",
     "precio": 58,
     "imagen":""
-}
+},
 {
     "id_producto": 3105,
     "nombre": "Mordillo Gumi Dental En Forma De Hueso - Mini",
@@ -106,7 +101,7 @@ Content-Type: application/json
     "marca": "Dogit",
     "precio": 25,
     "imagen":"" 
-}
+},
 {
     "id_producto": 3104,
     "nombre": "Paños Sanitarios Dogit 14 Unidades - 55,8x55,8 Cm",
@@ -114,7 +109,7 @@ Content-Type: application/json
     "marca": "Dogit",
     "precio": 40,
     "imagen":""
-}
+},
 {
     "id_producto": 3103,
     "nombre": "Paños Sanitarios Dogit 30 Unidades - 55,8x55,8 Cm",
@@ -122,7 +117,7 @@ Content-Type: application/json
     "marca": "Dogit",
     "precio": 84,
     "imagen":""
-}
+},
 {
     "id_producto": 3102,
     "nombre": "Paños Sanitarios Dogit 50 Unidades - 55,8x55,8 Cm",
@@ -130,7 +125,7 @@ Content-Type: application/json
     "marca": "Dogit",
     "precio": 104,
     "imagen":""
-}
+},
 {
     "id_producto": 3101,
     "nombre": "Corta Uñas Dogit Profesional",
@@ -138,7 +133,7 @@ Content-Type: application/json
     "marca": "Dogit",
     "precio": 70,
     "imagen":""
-}
+},
 {
     "id_producto": 2410,
     "nombre": "Transportadora Cancat Skudo 3 - 60x40x39",
@@ -146,7 +141,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 422.40,
     "imagen":"" 
-}
+},
 {
     "id_producto": 2409,
     "nombre": "Aro De Goma Strong - ø15 Cm",
@@ -154,7 +149,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": "87.40",
     "imagen":""
-}
+},
 {
     "id_producto": 2408,
     "nombre": "Pelota Rayada Cancat - 7 Cm",
@@ -162,7 +157,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 15.90,
     "imagen":""
-}
+},
 {
     "id_producto": 2407,
     "nombre": "Hueso Dental Cancat",
@@ -170,7 +165,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 20.30,
     "imagen":""
-}
+},
 {
     "id_producto": 2406,
     "nombre": "Litera Cerrada Cancat Komoda Con Palita Y Filtro De Carbono - Litera Cancat Komoda Con Palita Y Filtro De Carbono",
@@ -178,7 +173,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 191.10,
     "imagen":"" 
-}
+},
 {
     "id_producto": 2405,
     "nombre": "Peluche Raton Duo Cancat Smart Antiestres",
@@ -186,7 +181,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 43.50,
     "imagen":""
-}
+},
 {
     "id_producto": 2404,
     "nombre": "Juguete Cancat Raton con Sonido",
@@ -194,7 +189,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 30.00,
     "imagen":""
-}
+},
 {
     "id_producto": 2403,
     "nombre": "Mordillo Cancat Dental",
@@ -202,7 +197,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 36.60,
     "imagen":""
-}
+},
 {
     "id_producto": 2402,
     "nombre": "Cañita Pez Esqueleto Blanco - Tamaño Único",
@@ -210,7 +205,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 42.30,
     "imagen":""
-}
+},
 {
     "id_producto": 2401,
     "nombre": "Juguete CanCat Soga Con Doble Nudo - 13 pulgadas",
@@ -218,7 +213,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 19.50,
     "imagen":""
-}
+},
 {
     "id_producto": 1705,
     "nombre": "Alimento Dog Chow Sano y En Forma para Perro Adulto - 8kg",
@@ -226,7 +221,7 @@ Content-Type: application/json
     "marca": "Dog Chow",
     "precio": 70,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1704,
     "nombre": "Alimento Dog Chow para Perro Cachorro Pequeño - 3 Kg",
@@ -234,7 +229,7 @@ Content-Type: application/json
     "marca": "Dog Chow",
     "precio": 30,
     "imagen":""
-}
+},
 {
     "id_producto": 1703,
     "nombre": "Alimento Dog Chow para Perro Edad Madura - 3kg",
@@ -242,7 +237,7 @@ Content-Type: application/json
     "marca": "Dog Chow",
     "precio": 30,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1702,
     "nombre": "Snack Dog Chow Salud Oral Raza Pequeña - 45g",
@@ -250,7 +245,7 @@ Content-Type: application/json
     "marca": "Dog Chow",
     "precio": 5,
     "imagen":""
-}
+},
 {
     "id_producto": 1701,
     "nombre": "Snack Dog Chow Salud Oral Raza Mediana y Grande - 80g",
@@ -258,7 +253,7 @@ Content-Type: application/json
     "marca": "Dog Chow",
     "precio": 5,
     "imagen":""
-}
+},
 {
     "id_producto": 1605,
     "nombre": "Cat Chow Adulto Carne - 3 Kg",
@@ -266,7 +261,7 @@ Content-Type: application/json
     "marca": "Cat Chow",
     "precio": 40,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1604,
     "nombre": "Cat Chow Delimix Carne Pollo Salmon - 3 kg",
@@ -274,7 +269,7 @@ Content-Type: application/json
     "marca": "Cat Chow",
     "precio": 42,
     "imagen":""
-}
+},
 {
     "id_producto": 1603,
     "nombre": "Cat Chow Gatitos - 1 Kg",
@@ -282,7 +277,7 @@ Content-Type: application/json
     "marca": "Cat Chow",
     "precio": 16,
     "imagen":""
-}
+},
 {
     "id_producto": 1602,
     "nombre": "Cat Chow Adulto Carne - 3 Kg",
@@ -290,7 +285,7 @@ Content-Type: application/json
     "marca": "Cat Chow",
     "precio": 40,
     "imagen":""
-}
+},
 {
     "id_producto": 1601,
     "nombre": "Cat Chow Adulto Pescado - 3 Kg",
@@ -298,7 +293,7 @@ Content-Type: application/json
     "marca": "Cat Chow",
     "precio": 40,
     "imagen":""
-}
+},
 {
     "id_producto": 1505,
     "nombre": "Collar LED Animal Pet Azul - Large",
@@ -306,7 +301,7 @@ Content-Type: application/json
     "marca": "Animal Pet",
     "precio": 110,
     "imagen":""
-}
+},
 {
     "id_producto": 1504,
     "nombre": "Cepillo Animal Pet Autolimpiante Para Perros - L",
@@ -314,7 +309,7 @@ Content-Type: application/json
     "marca": "Animal Pet",
     "precio": 185,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1503,
     "nombre": "Comedero Bebedero Animal Pet Curvo Naranja - Medium",
@@ -322,7 +317,7 @@ Content-Type: application/json
     "marca": "Animal Pet",
     "precio": 100,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1502,
     "nombre": "Collar Reflectivo Animal Pet Negro Costura Blanca - L",
@@ -330,7 +325,7 @@ Content-Type: application/json
     "marca": "Animal Pet",
     "precio": 50,
     "imagen":""
-}
+},
 {
     "id_producto": 1501,
     "nombre": "Cucha Animal Pet Plastica - 87x72x75,5 Cm",
@@ -338,7 +333,7 @@ Content-Type: application/json
     "marca": "Animal Pet",
     "precio": 1180,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1401,
     "nombre": "Huesos De Cuero Expanded Cancat - Nº6",
@@ -346,7 +341,7 @@ Content-Type: application/json
     "marca": "CanCat",
     "precio": 24.00,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1206,
     "nombre": "Pedigree Biscrok Multi - 100 Gr",
@@ -354,7 +349,7 @@ Content-Type: application/json
     "marca": "Pedigree",
     "precio": 10,
     "imagen":""
-}
+},
 {
     "id_producto": 1205,
     "nombre": "Lata Pedigree Carne para Perros Cachorros - 340Gr",
@@ -362,7 +357,7 @@ Content-Type: application/json
     "marca": "Pedigree",
     "precio": 15,
     "imagen":""
-}
+},
 {
     "id_producto": 1204,
     "nombre": "Lata Pedigree Pollo para Perro Adulto - 340Gr",
@@ -370,7 +365,7 @@ Content-Type: application/json
     "marca": "Pedigree",
     "precio": 15,
     "imagen":""
-}
+},
 {
     "id_producto": 1203,
     "nombre": "Alimento Pedigree Perro Raza Pequeña - 8kg",
@@ -378,7 +373,7 @@ Content-Type: application/json
     "marca": "Pedigree",
     "precio": 80,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1202,
     "nombre": "Alimento Pedigree Carne y Vegetales para Perro - 21 Kg",
@@ -386,7 +381,7 @@ Content-Type: application/json
     "marca": "Pedigree",
     "precio": 145,
     "imagen":"" 
-}
+},
 {
     "id_producto": 1201,
     "nombre": "Alimento Pedigree Perro Adulto Carne Cerdo y Pollo - 21+3kg",
@@ -395,3 +390,4 @@ Content-Type: application/json
     "precio": 160,
     "imagen":""
 }
+]
