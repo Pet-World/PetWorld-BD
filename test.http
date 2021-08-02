@@ -151,14 +151,15 @@ POST {{api}}/pet/registerpet
 Content-Type: application/json
 
 {
-    "id_mascota": 1345,
+    "id_mascota": 1343,
     "dni": 7512233,
     "edad": 20,
     "nombre": "cj7",
     "pelaje": "corto",
     "raza": "chihuahua",
     "sexo": "macho",
-    "tamano": "pequeño"
+    "tamano": "pequeño",
+    "tipo": "Perro"
 }
 
 

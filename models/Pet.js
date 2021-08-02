@@ -10,6 +10,7 @@ const PetSchema = new Schema({
     raza: String,
     sexo: String,
     tamano: String,
+    tipo: String,
 });
 
 const Pet = mongoose.model('Pet', PetSchema);
