@@ -6,7 +6,7 @@ const Pet = require("./../models/Pet");
 
 // Registrar mascota
 router.post("/registerpet", (req, res) => {
-    let { id_mascota, dni, edad, nombre, pelaje, raza, sexo, tamano } = req.body;
+    let { id_mascota, dni, edad, nombre, pelaje, raza, sexo, tamano, tipo } = req.body;
     nombre = nombre.trim();
 
     if (
@@ -16,7 +16,8 @@ router.post("/registerpet", (req, res) => {
         pelaje == "" ||
         raza == "" ||
         sexo == "" ||
-        tamano == ""
+        tamano == "" ||
+        tipo == ""
     ) {
         res.json({
             status: "FAILED",
@@ -33,6 +34,7 @@ router.post("/registerpet", (req, res) => {
             raza,
             sexo,
             tamano,
+            tipo,
         });
 
         newPet
