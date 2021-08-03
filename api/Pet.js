@@ -83,4 +83,32 @@ router.get("/getPet", (req, res) => {
         });
 });
 
+// Obtener una Mascota
+router.get("/getPetsByDni", (req, res) => {
+    const dni = parseInt(req.query.dni);
+    Pet.find({ dni })
+        .then((resultPets) => {
+            if (resultPets.length == 0) {
+                // A Service already exists
+                res.json({
+                    status: "FAILED",
+                    message: "No existe el dni del propietario!",
+                });
+            } else {
+                res.json({
+                    status: "SUCCESS",
+                    message: "Mascotas obtenidas",
+                    data: resultPets,
+                });
+            }
+        })
+        .catch((err) => {
+            console.log(err);
+            res.json({
+                status: "FAILED",
+                message: "Se produjo un error al verificar el dni!",
+            });
+        });
+});
+
 module.exports = router;

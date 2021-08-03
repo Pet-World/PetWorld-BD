@@ -1,0 +1,112 @@
+@api = http://localhost:5000
+
+POST {{api}}/service/createServices
+Content-Type: application/json
+
+[
+        {
+            "id_servicio": 100,
+            "categoria": "medicina_preventiva",
+            "especificacion": "chequeos medicos preventivos"
+        },
+        {
+            "id_servicio": 101,
+            "categoria": "medicina_preventiva",
+            "especificacion": "analisis de laboratorio"
+        },
+        {
+            "id_servicio": 102,
+            "categoria": "medicina_preventiva",
+            "especificacion": "ecografia"
+        },
+        {
+            "id_servicio": 103,
+            "categoria": "medicina_preventiva",
+            "especificacion": "microchips"
+        },
+        {
+            "id_servicio": 104,
+            "categoria": "medicina_preventiva",
+            "especificacion": "snaps de descarte de Parvovirosis"
+        },
+        {
+            "id_servicio": 105,
+            "categoria": "medicina_preventiva",
+            "especificacion": "snaps de descarte de distemper"
+        },
+        {
+            "id_servicio": 106,
+            "categoria": "medicina_preventiva",
+            "especificacion": "snaps de descarte Sida"
+        },
+        {
+            "id_servicio": 200,
+            "categoria": "medicina_interna",
+            "especificacion": "placas de Rayos X"
+        },
+        {
+            "id_servicio": 201,
+            "categoria": "medicina_interna",
+            "especificacion": "traumatologia"
+        },
+        {
+            "id_servicio": 202,
+            "categoria": "medicina_interna",
+            "especificacion": "profilaxis dental"
+        },
+        {
+            "id_servicio": 203,
+            "categoria": "medicina_interna",
+            "especificacion": "citologias de masas, oidos y piel"
+        },
+        {
+            "id_servicio": 204,
+            "categoria": "medicina_interna",
+            "especificacion": "histopatologias"
+        },
+        {
+            "id_servicio": 205,
+            "categoria": "medicina_interna",
+            "especificacion": "otoscopias digitales"
+        },
+        {
+            "id_servicio": 206,
+            "categoria": "medicina_interna",
+            "especificacion": "rinoscopias digitales"
+        },
+        {
+            "id_servicio": 300,
+            "categoria": "estetica",
+            "especificacion": "baño y perfumado"
+        },
+        {
+            "id_servicio": 301,
+            "categoria": "estetica",
+            "especificacion": "corte de uñas"
+        },
+        {
+            "id_servicio": 302,
+            "categoria": "estetica",
+            "especificacion": "limpieza de oidos"
+        },
+        {
+            "id_servicio": 303,
+            "categoria": "estetica",
+            "especificacion": "cepillado de dientes"
+        },
+        {
+            "id_servicio": 304,
+            "categoria": "estetica",
+            "especificacion": "limpieza de glandulas anales"
+        },
+        {
+            "id_servicio": 305,
+            "categoria": "estetica",
+            "especificacion": "cepillado y desenredado de pelaje"
+        },
+        {
+            "id_servicio": 306,
+            "categoria": "estetica",
+            "especificacion": "reacondicionamiento de pelaje"
+        }
+]

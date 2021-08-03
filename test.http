@@ -120,7 +120,7 @@ Content-Type: application/json
 }
 
 
-//Create Service
+//Create History cite
 
 POST {{api}}/historycite/createHistorycite
 Content-Type: application/json
