@@ -119,4 +119,32 @@ router.get("/getHistorycite", (req, res) => {
         });
 });
 
+// Obtener un Historial de cita
+router.get("/getHistoryByDni", (req, res) => {
+    const dni = parseInt(req.query.dni);
+    Historycite.find({ dni })
+        .then((resultHistory) => {
+            if (resultHistory.length == 0) {
+                // A Service already exists
+                res.json({
+                    status: "FAILED",
+                    message: "No existe el dni del propietario!",
+                });
+            } else {
+                res.json({
+                    status: "SUCCESS",
+                    message: "Historiales de cita obtenidos",
+                    data: resultHistory,
+                });
+            }
+        })
+        .catch((err) => {
+            console.log(err);
+            res.json({
+                status: "FAILED",
+                message: "Se produjo un error al verificar el dni!",
+            });
+        });
+});
+
 module.exports = router;

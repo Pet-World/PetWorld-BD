@@ -137,6 +137,8 @@ Content-Type: application/json
 
 GET {{api}}/historycite/getHistorycite?id_historial=211
 
+GET {{api}}/historycite/getHistoryByDni?dni=12345678
+
 // Add Valoration
 POST {{api}}/historycite/addValoration
 Content-Type: application/json
