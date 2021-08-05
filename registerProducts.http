@@ -4,392 +4,410 @@ POST {{api}}/product/createProducts
 Content-Type: application/json
 
 [
-        {
-            "id_producto": 3304,
-            "nombre": "Shampoo Repelente Natural Protección Y Cuidado - 300 Ml",
-            "categoria": "Limpieza",
-            "marca": "Maskota",
-            "precio": 23.60,
-            "imagen": ""
-        },
-        {
-            "id_producto": 3303,
-            "nombre": "Shampoo Belleza Control De Olores - 300 Ml",
-            "categoria": "Limpieza",
-            "marca": "Maskota",
-            "precio": 23.60,
-            "imagen":"" 
-        },
-        {
+    {
+        "id_producto": 1401,
+        "nombre": "Huesos De Cuero Expanded Cancat - Nº6",
+        "categoria": "Alimentos",
+        "marca": "CanCat",
+        "precio": 24.00,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/170713-1000-1000/421013.jpg?v=637183440547030000"
+    },
+
+    {
+        "id_producto": 2401,
+        "nombre": "Juguete CanCat Soga Con Doble Nudo - 13 pulgadas",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 19.50,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/168607-1000-1000/221102.jpg?v=637084102178200000"
+    },
+
+    {
+        "id_producto": 2402,
+        "nombre": "Cañita Pez Esqueleto Blanco - Tamaño Único",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 42.30,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/168479-600-600/221089.jpg?v=637076216954900000"
+    },
+
+    {
+        "id_producto": 2403,
+        "nombre": "Mordillo Cancat Dental",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 36.60,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/176182-1000-1000/221178.jpg?v=637532484940970000"
+    },
+
+    {
+        "id_producto": 2404,
+        "nombre": "Juguete Cancat Raton con Sonido",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 30.00,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/174038-1000-1000/221307.jpg?v=637434938317470000"
+    },
+
+    {
+        "id_producto": 2405,
+        "nombre": "Peluche Raton Duo Cancat Smart Antiestres",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 43.50,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/171501-1000-1000/221072.jpg?v=637290590226600000"
+    },
+
+    {
+        "id_producto": 2406,
+        "nombre": "Litera Cerrada Cancat Komoda Con Palita Y Filtro De Carbono - Litera Cancat Komoda Con Palita Y Filtro De Carbono",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 191.10,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/174327-1000-1000/221219.jpg?v=637441594489870000"
+    },
+
+    {
+        "id_producto": 2407,
+        "nombre": "Hueso Dental Cancat",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 20.30,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/175885-1000-1000/221248.jpg?v=637511796853170000"
+    },
+
+    {
+        "id_producto": 2408,
+        "nombre": "Pelota Rayada Cancat - 7 Cm",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 15.90,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/171507-1000-1000/200678.jpg?v=637290590250500000"
+    },
+
+    {
         "id_producto": 2409,
         "nombre": "Aro De Goma Strong - ø15 Cm",
         "categoria": "Accesorios",
         "marca": "CanCat",
         "precio": "87.40",
-        "imagen":""
-        },
-        {
-        "id_producto": 1601,
-        "nombre": "Cat Chow Adulto Pescado - 3 Kg",
-        "categoria": "Alimentos",
-        "marca": "Cat Chow",
-        "precio": 40,
-        "imagen":""
-        },
-        {
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/165712-1000-1000/221056.png?v=636772051405230000"
+    },
+
+    {
+        "id_producto": 2410,
+        "nombre": "Transportadora Cancat Skudo 3 - 60x40x39",
+        "categoria": "Accesorios",
+        "marca": "CanCat",
+        "precio": 422.40,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/173868-1000-1000/221204.jpg?v=637414752932630000"
+    },
+
+    {
+        "id_producto": 3301,
+        "nombre": "Shampoo Maskota Pelaje Blanco Revitaluzante De Color - 300 Ml",
+        "categoria": "Limpieza",
+        "marca": "Maskota",
+        "precio": 23.60,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/168483-1000-1000/240262.jpg?v=637076216973070000"
+    },
+
+    {
+        "id_producto": 3302,
+        "nombre": "Shampoo En Gel Canela Y Manzana Maskota - 300 Ml",
+        "categoria": "Limpieza",
+        "marca": "Maskota",
+        "precio": "23.60",
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/169159-1000-1000/240258.jpg?v=637122023303130000"
+    },
+
+    {
+        "id_producto": 3303,
+        "nombre": "Shampoo Belleza Control De Olores - 300 Ml",
+        "categoria": "Limpieza",
+        "marca": "Maskota",
+        "precio": 23.60,
+        "imagen": "Shampoo Belleza Control De Olores"
+    },
+
+    {
         "id_producto": 3304,
         "nombre": "Shampoo Repelente Natural Protección Y Cuidado - 300 Ml",
         "categoria": "Limpieza",
         "marca": "Maskota",
         "precio": 23.60,
-        "imagen": "" 
-        },
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/165859-1000-1000/240264.jpg?v=636827274900570000"
+    },
 
-        {
-            "id_producto": 3302,
-            "nombre": "Shampoo En Gel Canela Y Manzana Maskota - 300 Ml",
-            "categoria": "Limpieza",
-            "marca": "Maskota",
-            "precio": "23.60",
-            "imagen":""
-        },
+    {
+        "id_producto": 1501,
+        "nombre": "Cucha Animal Pet Plastica - 87x72x75,5 Cm",
+        "categoria": "Accesorios",
+        "marca": "Animal Pet",
+        "precio": 1180,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/168459-1000-1000/246243.jpg?v=637076216839230000"
+    },
 
-        {
-            "id_producto": 3301,
-            "nombre": "Shampoo Maskota Pelaje Blanco Revitaluzante De Color - 300 Ml",
-            "categoria": "Limpieza",
-            "marca": "Maskota",
-            "precio": 23.60,
-            "imagen":""
-        },
-        {
-            "id_producto": 3202,
-            "nombre": "Dentastix Pedigree Razas Pequeñas",
-            "categoria": "Limpieza",
-            "marca": "Pedigree",
-            "precio": 6,
-            "imagen":""
-        },
-        {
-            "id_producto": 3201,
-            "nombre": "Dentastix Pedigree Razas Medianas",
-            "categoria": "Limpieza",
-            "marca": "Pedigree",
-            "precio": 8,
-            "imagen":""
-        },
-        {
-            "id_producto": 3107,
-            "nombre": "Mordillo Gumi Dental Con Cordon - Chico",
-            "categoria": "Limpieza",
-            "marca": "Dogit",
-            "precio": 70,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 3106,
-            "nombre": "Mordillo Dogit Gumi Con Seda Dental - Mediano",
-            "categoria": "Limpieza",
-            "marca": "Dogit",
-            "precio": 58,
-            "imagen":""
-        },
-        {
-            "id_producto": 3105,
-            "nombre": "Mordillo Gumi Dental En Forma De Hueso - Mini",
-            "categoria": "Limpieza",
-            "marca": "Dogit",
-            "precio": 25,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 3104,
-            "nombre": "Paños Sanitarios Dogit 14 Unidades - 55,8x55,8 Cm",
-            "categoria": "Limpieza",
-            "marca": "Dogit",
-            "precio": 40,
-            "imagen":""
-        },
-        {
-            "id_producto": 3103,
-            "nombre": "Paños Sanitarios Dogit 30 Unidades - 55,8x55,8 Cm",
-            "categoria": "Limpieza",
-            "marca": "Dogit",
-            "precio": 84,
-            "imagen":""
-        },
-        {
-            "id_producto": 3102,
-            "nombre": "Paños Sanitarios Dogit 50 Unidades - 55,8x55,8 Cm",
-            "categoria": "Limpieza",
-            "marca": "Dogit",
-            "precio": 104,
-            "imagen":""
-        },
-        {
-            "id_producto": 3101,
-            "nombre": "Corta Uñas Dogit Profesional",
-            "categoria": "Limpieza",
-            "marca": "Dogit",
-            "precio": 70,
-            "imagen":""
-        },
-        {
-            "id_producto": 2410,
-            "nombre": "Transportadora Cancat Skudo 3 - 60x40x39",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 422.40,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 2409,
-            "nombre": "Aro De Goma Strong - ø15 Cm",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": "87.40",
-            "imagen":""
-        },
-        {
-            "id_producto": 2408,
-            "nombre": "Pelota Rayada Cancat - 7 Cm",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 15.90,
-            "imagen":""
-        },
-        {
-            "id_producto": 2407,
-            "nombre": "Hueso Dental Cancat",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 20.30,
-            "imagen":""
-        },
-        {
-            "id_producto": 2406,
-            "nombre": "Litera Cerrada Cancat Komoda Con Palita Y Filtro De Carbono - Litera Cancat Komoda Con Palita Y Filtro De Carbono",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 191.10,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 2405,
-            "nombre": "Peluche Raton Duo Cancat Smart Antiestres",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 43.50,
-            "imagen":""
-        },
-        {
-            "id_producto": 2404,
-            "nombre": "Juguete Cancat Raton con Sonido",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 30.00,
-            "imagen":""
-        },
-        {
-            "id_producto": 2403,
-            "nombre": "Mordillo Cancat Dental",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 36.60,
-            "imagen":""
-        },
-        {
-            "id_producto": 2402,
-            "nombre": "Cañita Pez Esqueleto Blanco - Tamaño Único",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 42.30,
-            "imagen":""
-        },
-        {
-            "id_producto": 2401,
-            "nombre": "Juguete CanCat Soga Con Doble Nudo - 13 pulgadas",
-            "categoria": "Accesorios",
-            "marca": "CanCat",
-            "precio": 19.50,
-            "imagen":""
-        },
-        {
-            "id_producto": 1705,
-            "nombre": "Alimento Dog Chow Sano y En Forma para Perro Adulto - 8kg",
-            "categoria": "Alimentos",
-            "marca": "Dog Chow",
-            "precio": 70,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1704,
-            "nombre": "Alimento Dog Chow para Perro Cachorro Pequeño - 3 Kg",
-            "categoria": "Alimentos",
-            "marca": "Dog Chow",
-            "precio": 30,
-            "imagen":""
-        },
-        {
-            "id_producto": 1703,
-            "nombre": "Alimento Dog Chow para Perro Edad Madura - 3kg",
-            "categoria": "Alimentos",
-            "marca": "Dog Chow",
-            "precio": 30,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1702,
-            "nombre": "Snack Dog Chow Salud Oral Raza Pequeña - 45g",
-            "categoria": "Alimentos",
-            "marca": "Dog Chow",
-            "precio": 5,
-            "imagen":""
-        },
-        {
-            "id_producto": 1701,
-            "nombre": "Snack Dog Chow Salud Oral Raza Mediana y Grande - 80g",
-            "categoria": "Alimentos",
-            "marca": "Dog Chow",
-            "precio": 5,
-            "imagen":""
-        },
-        {
-            "id_producto": 1605,
-            "nombre": "Cat Chow Adulto Carne - 3 Kg",
-            "categoria": "Alimentos",
-            "marca": "Cat Chow",
-            "precio": 40,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1604,
-            "nombre": "Cat Chow Delimix Carne Pollo Salmon - 3 kg",
-            "categoria": "Alimentos",
-            "marca": "Cat Chow",
-            "precio": 42,
-            "imagen":""
-        },
-        {
-            "id_producto": 1603,
-            "nombre": "Cat Chow Gatitos - 1 Kg",
-            "categoria": "Alimentos",
-            "marca": "Cat Chow",
-            "precio": 16,
-            "imagen":""
-        },
-        {
-            "id_producto": 1602,
-            "nombre": "Cat Chow Adulto Carne - 3 Kg",
-            "categoria": "Alimentos",
-            "marca": "Cat Chow",
-            "precio": 40,
-            "imagen":""
-        },
-        {
-            "id_producto": 1601,
-            "nombre": "Cat Chow Adulto Pescado - 3 Kg",
-            "categoria": "Alimentos",
-            "marca": "Cat Chow",
-            "precio": 40,
-            "imagen":""
-        },
-        {
-            "id_producto": 1505,
-            "nombre": "Collar LED Animal Pet Azul - Large",
-            "categoria": "Accesorios",
-            "marca": "Animal Pet",
-            "precio": 110,
-            "imagen":""
-        },
-        {
-            "id_producto": 1504,
-            "nombre": "Cepillo Animal Pet Autolimpiante Para Perros - L",
-            "categoria": "Limpieza",
-            "marca": "Animal Pet",
-            "precio": 185,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1503,
-            "nombre": "Comedero Bebedero Animal Pet Curvo Naranja - Medium",
-            "categoria": "Accesorios",
-            "marca": "Animal Pet",
-            "precio": 100,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1502,
-            "nombre": "Collar Reflectivo Animal Pet Negro Costura Blanca - L",
-            "categoria": "Accesorios",
-            "marca": "Animal Pet",
-            "precio": 50,
-            "imagen":""
-        },
-        {
-            "id_producto": 1501,
-            "nombre": "Cucha Animal Pet Plastica - 87x72x75,5 Cm",
-            "categoria": "Accesorios",
-            "marca": "Animal Pet",
-            "precio": 1180,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1401,
-            "nombre": "Huesos De Cuero Expanded Cancat - Nº6",
-            "categoria": "Alimentos",
-            "marca": "CanCat",
-            "precio": 24.00,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1206,
-            "nombre": "Pedigree Biscrok Multi - 100 Gr",
-            "categoria": "Alimentos",
-            "marca": "Pedigree",
-            "precio": 10,
-            "imagen":""
-        },
-        {
-            "id_producto": 1205,
-            "nombre": "Lata Pedigree Carne para Perros Cachorros - 340Gr",
-            "categoria": "Alimentos",
-            "marca": "Pedigree",
-            "precio": 15,
-            "imagen":""
-        },
-        {
-            "id_producto": 1204,
-            "nombre": "Lata Pedigree Pollo para Perro Adulto - 340Gr",
-            "categoria": "Alimentos",
-            "marca": "Pedigree",
-            "precio": 15,
-            "imagen":""
-        },
-        {
-            "id_producto": 1203,
-            "nombre": "Alimento Pedigree Perro Raza Pequeña - 8kg",
-            "categoria": "Alimentos",
-            "marca": "Pedigree",
-            "precio": 80,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1202,
-            "nombre": "Alimento Pedigree Carne y Vegetales para Perro - 21 Kg",
-            "categoria": "Alimentos",
-            "marca": "Pedigree",
-            "precio": 145,
-            "imagen":"" 
-        },
-        {
-            "id_producto": 1201,
-            "nombre": "Alimento Pedigree Perro Adulto Carne Cerdo y Pollo - 21+3kg",
-            "categoria": "Alimentos",
-            "marca": "Pedigree",
-            "precio": 160,
-            "imagen":""
-        }
-        
+    {
+        "id_producto": 1502,
+        "nombre": "Collar Reflectivo Animal Pet Negro Costura Blanca - L",
+        "categoria": "Accesorios",
+        "marca": "Animal Pet",
+        "precio": 50,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/172252-1000-1000/246270.jpg?v=637340935842130000"
+    },
+
+    {
+        "id_producto": 1503,
+        "nombre": "Comedero Bebedero Animal Pet Curvo Naranja - Medium",
+        "categoria": "Accesorios",
+        "marca": "Animal Pet",
+        "precio": 100,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/176782-600-600/246206.jpg?v=637556935676030000"
+    },
+
+    {
+        "id_producto": 1504,
+        "nombre": "Cepillo Animal Pet Autolimpiante Para Perros - L",
+        "categoria": "Limpieza",
+        "marca": "Animal Pet",
+        "precio": 185,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/172268-600-600/246288-1.jpg?v=637340935896000000"
+    },
+
+    {
+        "id_producto": 1505,
+        "nombre": "Collar LED Animal Pet Azul - Large",
+        "categoria": "Accesorios",
+        "marca": "Animal Pet",
+        "precio": 110,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/165905-1000-1000/246224.jpg?v=636832425828830000"
+    },
+
+    {
+        "id_producto": 1601,
+        "nombre": "Cat Chow Adulto Pescado - 3 Kg",
+        "categoria": "Alimentos",
+        "marca": "Cat Chow",
+        "precio": 40,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/178953-1000-1000/7613287377258_02.png?v=637570856607870000"
+    },
+
+    {
+        "id_producto": 1602,
+        "nombre": "Cat Chow Adulto Carne - 3 Kg",
+        "categoria": "Alimentos",
+        "marca": "Cat Chow",
+        "precio": 40,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/178985-1000-1000/7613287379535_02.png?v=637570856703300000"
+    },
+
+    {
+        "id_producto": 1603,
+        "nombre": "Cat Chow Gatitos - 1 Kg",
+        "categoria": "Alimentos",
+        "marca": "Cat Chow",
+        "precio": 16,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/178925-1000-1000/7613287376954_02.png?v=637570856525470000"
+    },
+
+    {
+        "id_producto": 1604,
+        "nombre": "Cat Chow Delimix Carne Pollo Salmon - 3 kg",
+        "categoria": "Alimentos",
+        "marca": "Cat Chow",
+        "precio": 42,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/179024-1000-1000/7613287380074_02.png?v=637570856820730000"
+    },
+
+
+    {
+        "id_producto": 1605,
+        "nombre": "Cat Chow Adulto Carne - 3 Kg",
+        "categoria": "Alimentos",
+        "marca": "Cat Chow",
+        "precio": 40,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/178985-1000-1000/7613287379535_02.png?v=637570856703300000"
+    },
+
+    {
+        "id_producto": 1701,
+        "nombre": "Snack Dog Chow Salud Oral Raza Mediana y Grande - 80g",
+        "categoria": "Alimentos",
+        "marca": "Dog Chow",
+        "precio": 5,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/179081-1000-1000/7891000261989-1.png?v=637570857011770000"
+    },
+
+    {
+        "id_producto": 1702,
+        "nombre": "Snack Dog Chow Salud Oral Raza Pequeña - 45g",
+        "categoria": "Alimentos",
+        "marca": "Dog Chow",
+        "precio": 5,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/179085-1000-1000/7891000262009-1.png?v=637570857024600000"
+    },
+
+    {
+        "id_producto": 1703,
+        "nombre": "Alimento Dog Chow para Perro Edad Madura - 3kg",
+        "categoria": "Alimentos",
+        "marca": "Dog Chow",
+        "precio": 30,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/179222-1000-1000/7613035797017-1.jpg?v=637570857560700000"
+    },
+
+    {
+        "id_producto": 1704,
+        "nombre": "Alimento Dog Chow para Perro Cachorro Pequeño - 3 Kg",
+        "categoria": "Alimentos",
+        "marca": "Dog Chow",
+        "precio": 30,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/179167-1000-1000/7613034419224-1.jpg?v=637570857355670000"
+    },
+
+    {
+        "id_producto": 1705,
+        "nombre": "Alimento Dog Chow Sano y En Forma para Perro Adulto - 8kg",
+        "categoria": "Alimentos",
+        "marca": "Dog Chow",
+        "precio": 70,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/179212-1000-1000/7613035796997-1.jpg?v=637570857529270000"
+    },
+
+
+    {
+        "id_producto": 1201,
+        "nombre": "Alimento Pedigree Perro Adulto Carne Cerdo y Pollo - 21+3kg",
+        "categoria": "Alimentos",
+        "marca": "Pedigree",
+        "precio": 160,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/180957-1000-1000/7797453000710.jpg?v=637611741171370000"
+    },
+
+    {
+        "id_producto": 1202,
+        "nombre": "Alimento Pedigree Carne y Vegetales para Perro - 21 Kg",
+        "categoria": "Alimentos",
+        "marca": "Pedigree",
+        "precio": 145,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/171427-1000-1000/7797453000666.jpg?v=637282834748100000"
+    },
+
+    {
+        "id_producto": 1203,
+        "nombre": "Alimento Pedigree Perro Raza Pequeña - 8kg",
+        "categoria": "Alimentos",
+        "marca": "Pedigree",
+        "precio": 80,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/173988-1000-1000/135062.jpg?v=637434938183100000"
+    },
+
+    {
+        "id_producto": 1204,
+        "nombre": "Lata Pedigree Pollo para Perro Adulto - 340Gr",
+        "categoria": "Alimentos",
+        "marca": "Pedigree",
+        "precio": 15,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/171452-1000-1000/7797453971713.jpg?v=637282834845100000"
+    },
+
+    {
+        "id_producto": 1205,
+        "nombre": "Lata Pedigree Carne para Perros Cachorros - 340Gr",
+        "categoria": "Alimentos",
+        "marca": "Pedigree",
+        "precio": 15,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/171444-1000-1000/7797453971690.jpg?v=637282834818030000"
+    },
+
+    {
+        "id_producto": 1206,
+        "nombre": "Pedigree Biscrok Multi - 100 Gr",
+        "categoria": "Alimentos",
+        "marca": "Pedigree",
+        "precio": 10,
+        "imagen": "https://nanolog.vteximg.com.br/arquivos/ids/163105-1000-1000/7797453971874.jpg?v=637260994754300000"
+    },
+
+    {
+        "id_producto": 3201,
+        "nombre": "Dentastix Pedigree Razas Medianas",
+        "categoria": "Limpieza",
+        "marca": "Pedigree",
+        "precio": 8,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/171470-1000-1000/7797453971829.jpg?v=637282834910630000"
+    },
+
+    {
+        "id_producto": 3202,
+        "nombre": "Dentastix Pedigree Razas Pequeñas",
+        "categoria": "Limpieza",
+        "marca": "Pedigree",
+        "precio": 6,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/171468-1000-1000/7797453971799.jpg?v=637282834902670000"
+    },
+
+    {
+        "id_producto": 3101,
+        "nombre": "Corta Uñas Dogit Profesional",
+        "categoria": "Limpieza",
+        "marca": "Dogit",
+        "precio": 70,
+        "imagen": "https://petlisis.com.ar/productos/1621365196/02_1621365196.jpg"
+    },
+
+    {
+        "id_producto": 3102,
+        "nombre": "Paños Sanitarios Dogit 50 Unidades - 55,8x55,8 Cm",
+        "categoria": "Limpieza",
+        "marca": "Dogit",
+        "precio": 104,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/163444-1000-1000/228702.jpg?v=636730508287770000"
+    },
+
+    {
+        "id_producto": 3103,
+        "nombre": "Paños Sanitarios Dogit 30 Unidades - 55,8x55,8 Cm",
+        "categoria": "Limpieza",
+        "marca": "Dogit",
+        "precio": 84,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/163443-1000-1000/228701.jpg?v=636730503626700000"
+    },
+
+    {
+        "id_producto": 3104,
+        "nombre": "Paños Sanitarios Dogit 14 Unidades - 55,8x55,8 Cm",
+        "categoria": "Limpieza",
+        "marca": "Dogit",
+        "precio": 40,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/162911-1000-1000/228577.jpg?v=636559314034030000"
+    },
+
+    {
+        "id_producto": 3105,
+        "nombre": "Mordillo Gumi Dental En Forma De Hueso - Mini",
+        "categoria": "Limpieza",
+        "marca": "Dogit",
+        "precio": 25,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/161495-600-600/228380.jpg?v=636407328257170000"
+    },
+
+    {
+        "id_producto": 3106,
+        "nombre": "Mordillo Dogit Gumi Con Seda Dental - Mediano",
+        "categoria": "Limpieza",
+        "marca": "Dogit",
+        "precio": 58,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/168473-600-600/228386.jpg?v=637076216925770000"
+    },
+
+    {
+        "id_producto": 3107,
+        "nombre": "Mordillo Gumi Dental Con Cordon - Chico",
+        "categoria": "Limpieza",
+        "marca": "Dogit",
+        "precio": 70,
+        "imagen": "https://puppis.vteximg.com.br/arquivos/ids/161493-1000-1000/228383.jpg?v=636407328214670000"
+    }
 ]
-
